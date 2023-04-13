@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xô fome</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="button">Login</string>
+    <string name="msgError">Not authenticated</string>
+    <string name="about">About</string>
+    <string name="aboutTitle">We are an app in search of the happiness of our neighbor, through donations in the form of food.</string>
+
+</resources>
