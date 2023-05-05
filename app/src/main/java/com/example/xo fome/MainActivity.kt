@@ -23,6 +23,11 @@ class MainActivity : AppCompatActivity() {
 
 
         bt.setOnClickListener{
+            val database = Firebase.database
+            val myRef = database.getReference("message")
+
+            myRef.setValue("Hello, World!")
+
             if (ed.text.toString().equals("adriano") && senha.text.toString().equals("1234")){
                 val texto = ed.text.toString()
                 val intent = Intent(this, LazerActivity::class.java)
