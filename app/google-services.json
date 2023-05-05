@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "317328858090",
+    "project_id": "xofome-64eab",
+    "storage_bucket": "xofome-64eab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317328858090:android:43470b10df73d30c55f093",
+        "android_client_info": {
+          "package_name": "com.example.xfome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317328858090-64t89hngbbhm9lieoitqpd4rv5445epu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIylHfFjbXAFEvQ7dFmweB2KZWbhavMJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317328858090-64t89hngbbhm9lieoitqpd4rv5445epu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
