@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.xfome.databinding.ActivityMainBinding
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     private  lateinit var binding : ActivityMainBinding
@@ -21,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 
         bt.setOnClickListener{
-            if (ed.text.toString().equals("joao") && senha.text.toString().equals("123")){
+            if (ed.text.toString().equals("adriano") && senha.text.toString().equals("1234")){
                 val texto = ed.text.toString()
                 val intent = Intent(this, LazerActivity::class.java)
                 intent.putExtra("user", texto)
