@@ -6,9 +6,11 @@
     <string name="msgError">Não autenticado</string>
     <string name="about">Sobre</string>
     <string name="aboutTitle">Somos um app em busca de um Recife mais saudável. Mostramos Lugares para praticar exercícios no Recife</string>
-    <string name="recife">Imagem do Recife</string>
-    <string name="jaqueira">Parque da Jaqueira</string>
-    <string name="trezeDeMaio">Parque Treze de maio</string>
     <string name="intro">Olá meu amig@ </string>
-    <string name="intro2"> seja bem=vindo ao app de exercício mais recifense em linha reta</string>
+    <string name="cadastro">Cadastro de lugares para se exercitar</string>
+    <string name="nome_do_local">nome do local</string>
+    <string name="bairro">bairro</string>
+    <string name="descrição">descrição</string>
+    <string name="botao_cadastro">enviar</string>
+    <string name="botao_lugares">lugares</string>
 </resources>

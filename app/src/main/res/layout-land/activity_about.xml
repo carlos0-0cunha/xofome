@@ -6,15 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".AboutActivity">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="436dp"
-        tools:layout_editor_absoluteY="242dp"
-        tools:ignore="MissingConstraints" />
-
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
@@ -31,6 +22,15 @@
         android:text="Somos um aplicativo que busca a melhora na vida de pessoas que necessitam, onde criamos uma corrente de doações e assim compramos os alimentos que precisamos, para fazer as cestas básicas"
         tools:layout_editor_absoluteX="272dp"
         tools:layout_editor_absoluteY="57dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="457dp"
+        tools:layout_editor_absoluteY="210dp"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

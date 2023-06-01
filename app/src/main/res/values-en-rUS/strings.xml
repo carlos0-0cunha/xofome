@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Xô fome</string>
+    <string name="app_name">Minha Atividade</string>
     <string name="user">User</string>
     <string name="password">Password</string>
     <string name="button">Login</string>
     <string name="msgError">Not authenticated</string>
     <string name="about">About</string>
     <string name="aboutTitle">We are an app in search of the happiness of our neighbor, through donations in the form of food.</string>
-
+    <string name="intro">Hello dear </string>
+    <string name="cadastro">register places of donations</string>
+    <string name="botao_lugares">places</string>
+    <string name="nome_do_local">place name</string>
+    <string name="bairro">neighborhood</string>
+    <string name="descrição">description</string>
+    <string name="botao_cadastro">send</string>
 </resources>

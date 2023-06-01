@@ -1,11 +1,11 @@
 package com.example.xfome
 
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.xfome.databinding.ActivityMainBinding
+import com.example.xofome.LazerActivity
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 

@@ -6,11 +6,17 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-
-            android:label="@string/app_name"
-            android:supportsRtl="true"
-            android:theme="@style/Theme.MinhaAtividade"
-            tools:targetApi="31">
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MinhaAtividade"
+        tools:targetApi="31">
+        <activity
+            android:name=".LugaresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CadastroActivity"
+            android:exported="false" />
         <activity
             android:name=".AboutActivity"
             android:exported="false" />

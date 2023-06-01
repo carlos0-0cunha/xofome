@@ -1,8 +1,9 @@
-package com.example.xfome
+package com.example.xofome
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.xfome.databinding.ActivityAboutBinding
+import com.example.xofome.databinding.ActivityAboutBinding
 
 class AboutActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAboutBinding
