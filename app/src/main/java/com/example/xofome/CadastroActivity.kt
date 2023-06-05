@@ -3,10 +3,9 @@ package com.example.xofome
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.xofome.databinding.ActivityCadastroBinding
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-
+import com.example.xfome.databinding.ActivityCadastroBinding
 
 class CadastroActivity : AppCompatActivity() {
     lateinit var binding: ActivityCadastroBinding

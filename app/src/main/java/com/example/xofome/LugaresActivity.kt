@@ -21,7 +21,7 @@ class LugaresActivity : AppCompatActivity() {
         lugaresRecyclerView = findViewById(R.id.listLugares)
         lugaresRecyclerView.layoutManager = LinearLayoutManager(this)
         lugaresRecyclerView.setHasFixedSize(true)
-        tvLoadingData = findViewById(R.id.tvLoadingData)
+        tvLoadingData = findViewById(R.@+tvLoadingData)
 
         lugaresList = arrayListOf<LugarModelo>()
 

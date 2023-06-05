@@ -13,8 +13,8 @@ class LazerActivity : AppCompatActivity() {
         binding = ActivityLazerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val btAdd = binding.button3
-        val btLugares = binding.button4
+        val btAdd = binding.button2
+        val btLugares = binding.button2
         val bt = binding.button2
         val usuarioNome = binding.textView2
         val nome = " "+intent.getStringExtra("user")+"! "
